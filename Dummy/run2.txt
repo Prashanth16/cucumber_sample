@@ -1,0 +1,32 @@
+[36m@all_questions[0m
+Feature: Book a Cheapest Flight from Bangalore to Delhi
+Karan’s wife Sandhya is currently on a business trip in Delhi.
+Their wedding anniversary is two weeks from now.
+So Karan is planning to surprise his wife by wishing her in person.
+
+  [36m@cleartrip[0m
+  Scenario: Search flights from Bangalore to Delhi[90m   # features/core_features/cleartrip.feature:9[0m
+    [32mGiven Karan Visits "[32m[1mcleartrip[0m[0m[32m" website[90m           # features/step_definitions/cleartrip_steps.rb:1[0m[0m
+    [32mThen Karan clicks on "[32m[1mRoundTrip[0m[0m[32m"[90m                 # features/step_definitions/cleartrip_steps.rb:5[0m[0m
+    [32mThen Karan selects from place as "[32m[1mBangalore[0m[0m[32m"[90m     # features/step_definitions/cleartrip_steps.rb:9[0m[0m
+    [32mThen Karan selects to place as "[32m[1mDelhi[0m[0m[32m"[90m           # features/step_definitions/cleartrip_steps.rb:15[0m[0m
+    [31mThen Karan selects  from date as "[31m[1m30/05/2019[0m[0m[31m"[90m    # features/step_definitions/cleartrip_steps.rb:21[0m[0m
+[31m      element click intercepted: Element <div class="row content">...</div> is not clickable at point (600, 350). Other element would receive the click: <div class="monthBlock last">...</div>[0m
+[31m        (Session info: chrome=79.0.3945.88) (Selenium::WebDriver::Error::ElementClickInterceptedError)[0m
+[31m      ./features/pages/cleartrip_page.rb:27:in `set_departure_date'[0m
+[31m      ./features/step_definitions/cleartrip_steps.rb:23:in `/^Karan selects  from date as "([^"]*)"$/'[0m
+[31m      features/core_features/cleartrip.feature:14:in `Then Karan selects  from date as "30/05/2019"'[0m
+    [36mThen Karan selects to date as "[36m[1m31/05/2019[0m[0m[36m"[90m       # features/step_definitions/cleartrip_steps.rb:27[0m[0m
+    [36mThen Karan selects the no of adults as "[36m[1m1[0m[0m[36m"[90m       # features/step_definitions/cleartrip_steps.rb:33[0m[0m
+    [36mThen Karan selects the no of children as "[36m[1m1[0m[0m[36m"[90m     # features/step_definitions/cleartrip_steps.rb:39[0m[0m
+    [36mThen Karan clicks on search flights[90m              # features/step_definitions/cleartrip_steps.rb:45[0m[0m
+    [36mThen Karan selects Cheapest flight from the list[90m # features/step_definitions/cleartrip_steps.rb:50[0m[0m
+    [36mThen Karan click on Book flight[90m                  # features/step_definitions/cleartrip_steps.rb:55[0m[0m
+    [36mThen Booking should be successfully completed[90m    # features/step_definitions/cleartrip_steps.rb:59[0m[0m
+
+[31mFailing Scenarios:[0m
+[31mcucumber features/core_features/cleartrip.feature:9[0m[90m # Scenario: Search flights from Bangalore to Delhi[0m
+
+1 scenario ([31m1 failed[0m)
+12 steps ([31m1 failed[0m, [36m7 skipped[0m, [32m4 passed[0m)
+0m38.759s

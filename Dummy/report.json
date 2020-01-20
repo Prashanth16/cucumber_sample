@@ -1,0 +1,922 @@
+[
+  {
+    "uri": "features/amazon.feature",
+    "id": "sandhya-loves-reading-books,-non-fiction,-especially-on-her-kindle.-so-karan’s-planning-to-gift-her-a-book-that’s-been-on-her-wishlist-for-some-time-now.",
+    "keyword": "Feature",
+    "name": "Sandhya loves reading books, non-fiction, especially on her Kindle. So Karan’s planning to gift her a book that’s been on her wishlist for some time now.",
+    "description": "The name of the book is  “A Brief History of Everyone Who Ever Lived” and is available on Amazon for the lowest price.\n He would like to paperback edition so his daughter and he can write a lovely message for Sandhya.\n Since RBI requires OTP for online transactions, you can take him till the payment gateway and he’ll take it from there.",
+    "line": 3,
+    "tags": [
+      {
+        "name": "@all_questions",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "sandhya-loves-reading-books,-non-fiction,-especially-on-her-kindle.-so-karan’s-planning-to-gift-her-a-book-that’s-been-on-her-wishlist-for-some-time-now.;search-for-book-with-title-a-brief-history-of-everyone-who-ever-lived",
+        "keyword": "Scenario",
+        "name": "Search for Book with title A Brief History of Everyone Who Ever Lived",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@all_questions",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/env.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Karan Visits \"amazon\" website",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5239342000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Karan would like to search for \"A Brief History of Everyone Who Ever Lived\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/amazon_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8362994000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "He clicks on \"Paperback\" link",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/amazon_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9912466000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"A Brief History of Everyone Who Ever Lived: The Human Story Retold Through Our Genes\" as Product title",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/amazon_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2043540000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on Add to cart",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/amazon_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2067048000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see Add to cart confirmation page",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/amazon_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2046220000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204052000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/cleartrip.feature",
+    "id": "book-a-cheapest-flight-from-bangalore-to-delhi",
+    "keyword": "Feature",
+    "name": "Book a Cheapest Flight from Bangalore to Delhi",
+    "description": "Karan’s wife Sandhya is currently on a business trip in Delhi.\nTheir wedding anniversary is two weeks from now.\nSo Karan is planning to surprise his wife by wishing her in person.",
+    "line": 3,
+    "tags": [
+      {
+        "name": "@all_questions",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "book-a-cheapest-flight-from-bangalore-to-delhi;search-flights-from-bangalore-to-delhi",
+        "keyword": "Scenario",
+        "name": "Search flights from Bangalore to Delhi",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@all_questions",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/env.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Karan Visits \"cleartrip\" website",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4745015000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan clicks on \"RoundTrip\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109350000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects from place as \"Bangalore\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10158255000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects to place as \"Delhi\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10144337000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects  from date as \"30/05/2019\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20668080000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects to date as \"31/05/2019\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20307292000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects the no of adults as \"1\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10061641000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects the no of children as \"1\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15066285000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan clicks on search flights",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5347449000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects Cheapest flight from the list",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25044453000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan click on Book flight",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12868987000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Booking should be successfully completed",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51049000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204008000
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-a-cheapest-flight-from-bangalore-to-delhi;karan-should-not-be-allowed-to-navigate-to-flights-list-page,-if-return-date-is-not-entered",
+        "keyword": "Scenario",
+        "name": "Karan should not be allowed to Navigate to flights list page, if return date is not entered",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@all_questions",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/env.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Karan Visits \"cleartrip\" website",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1769080000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan clicks on \"RoundTrip\"",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116389000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects from place as \"Bangalore\"",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10139281000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects to place as \"Delhi\"",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10165735000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects  from date as \"30/05/2019\"",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20278836000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan clicks on search flights",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5198284000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan should not be allowed to proceed to next page",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64358000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174063000
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-a-cheapest-flight-from-bangalore-to-delhi;karan-should-not-be-allowed-to-navigate-to-flights-list-page,-if-departure-date-is-not-entered",
+        "keyword": "Scenario",
+        "name": "Karan should not be allowed to navigate to flights list page, if departure date is not entered",
+        "description": "",
+        "line": 32,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@all_questions",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/env.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Karan Visits \"cleartrip\" website",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1462532000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan clicks on \"RoundTrip\"",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 675699000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects from place as \"Bangalore\"",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10186577000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects to place as \"Delhi\"",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10148562000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects to date as \"31/05/2019\"",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20189181000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan clicks on search flights",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5220602000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan should not be allowed to proceed to next page",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63813000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169785000
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-a-cheapest-flight-from-bangalore-to-delhi;karan-should-not-be-allowed-to-navigate-to-flights-list-page,-if-departure-place-is-not-entered",
+        "keyword": "Scenario",
+        "name": "Karan should not be allowed to navigate to flights list page, if departure place is not entered",
+        "description": "",
+        "line": 42,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@all_questions",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/env.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Karan Visits \"cleartrip\" website",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1568847000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan clicks on \"RoundTrip\"",
+            "line": 45,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 598113000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects to place as \"Delhi\"",
+            "line": 46,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10146128000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects  from date as \"30/05/2019\"",
+            "line": 47,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20193286000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects to date as \"31/05/2019\"",
+            "line": 48,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20177686000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan clicks on search flights",
+            "line": 49,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5213244000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan should not be allowed to proceed to next page",
+            "line": 50,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62713000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99083000
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-a-cheapest-flight-from-bangalore-to-delhi;karan-should-not-be-allowed-to-navigate-to-flights-list-page,-if-return-place-is-not-entered",
+        "keyword": "Scenario",
+        "name": "Karan should not be allowed to navigate to flights list page, if return place is not entered",
+        "description": "",
+        "line": 52,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@all_questions",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/env.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Karan Visits \"cleartrip\" website",
+            "line": 54,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1562795000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan clicks on \"RoundTrip\"",
+            "line": 55,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84974000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects from place as \"Bangalore\"",
+            "line": 56,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10158545000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects  from date as \"30/05/2019\"",
+            "line": 57,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20205551000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan selects to date as \"31/05/2019\"",
+            "line": 58,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20179842000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan clicks on search flights",
+            "line": 59,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5210969000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Karan should not be allowed to proceed to next page",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/cleartrip_steps.rb:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59482000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.20.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160768000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

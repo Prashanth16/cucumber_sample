@@ -1,0 +1,75 @@
+@all_questions
+Feature: Book a Cheapest Flight from Bangalore to Delhi
+Karan’s wife Sandhya is currently on a business trip in Delhi.
+Their wedding anniversary is two weeks from now.
+So Karan is planning to surprise his wife by wishing her in person.
+
+  @cleartrip
+  Scenario: Search flights from Bangalore to Delhi   # features/core_features/cleartrip.feature:9
+    Given Karan Visits "cleartrip" website           # features/core_features/cleartrip.feature:10
+    Then Karan clicks on "RoundTrip"                 # features/core_features/cleartrip.feature:11
+    Then Karan selects from place as "Bangalore"     # features/core_features/cleartrip.feature:12
+    Then Karan selects to place as "Delhi"           # features/core_features/cleartrip.feature:13
+    Then Karan selects  from date as "30/05/2019"    # features/core_features/cleartrip.feature:14
+    Then Karan selects to date as "31/05/2019"       # features/core_features/cleartrip.feature:15
+    Then Karan selects the no of adults as "1"       # features/core_features/cleartrip.feature:16
+    Then Karan selects the no of children as "1"     # features/core_features/cleartrip.feature:17
+    Then Karan clicks on search flights              # features/core_features/cleartrip.feature:18
+    Then Karan selects Cheapest flight from the list # features/core_features/cleartrip.feature:19
+    Then Karan click on Book flight                  # features/core_features/cleartrip.feature:20
+    Then Booking should be successfully completed    # features/core_features/cleartrip.feature:21
+
+1 scenario (1 undefined)
+12 steps (12 undefined)
+0m0.038s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^Karan Visits "([^"]*)" website$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Karan clicks on "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Karan selects from place as "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Karan selects to place as "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Karan selects  from date as "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Karan selects to date as "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Karan selects the no of adults as "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Karan selects the no of children as "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Karan clicks on search flights$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Karan selects Cheapest flight from the list$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Karan click on Book flight$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Booking should be successfully completed$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
